@@ -1,0 +1,55 @@
+<div {$pageattrs}>
+
+{BEGIN container_column}
+<div class="rnr-c rnr-ch rnr-c-column">
+
+{BEGIN masterlist_title}
+<div  class="style1 rnr-bl rnr-b-masterlistheader {$brickclass_masterlistheader}"><span>{$pagetitlelabel filiere masterlist}</span></div>
+{END masterlist_title}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_column}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+	<style>
+	.bs-gridcell[data-field=idfiliere]:before {
+		content: "{$label filiere idfiliere}";
+	}
+	.bs-gridcell[data-field=codefiliere]:before {
+		content: "{$label filiere codefiliere}";
+	}
+	.bs-gridcell[data-field=nomfiliere]:before {
+		content: "{$label filiere nomfiliere}";
+	}
+</style>
+<table {$masterlistgrid_hiddenattr} data-pageid="{$pageid}" data-brick="masterlistgrid" class="table rnr-b-mastergridfields rnr-gridtable bs-flexgrid" >
+		<thead>
+		<tr>
+			<th class="{$idfiliere_class}">{$label filiere idfiliere}</th>
+			<th class="{$codefiliere_class}">{$label filiere codefiliere}</th>
+			<th class="{$nomfiliere_class}">{$label filiere nomfiliere}</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td class="{$idfiliere_class} bs-gridcell" data-field=idfiliere>{$idfiliere_mastervalue}</td>
+			<td class="{$codefiliere_class} bs-gridcell" data-field=codefiliere>{$codefiliere_mastervalue}</td>
+			<td class="{$nomfiliere_class} bs-gridcell" data-field=nomfiliere>{$nomfiliere_mastervalue}</td>
+		</tr>
+	</tbody>
+
+</table> 
+
+
+
+
+{END container_mastergrid}
+
+</div>

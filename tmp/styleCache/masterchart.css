@@ -1,0 +1,56 @@
+body.page-preview
+{
+padding-top:10px; padding-left:10px;
+}
+.page-preview .rnr-c-masterchartheader,
+  .rnr-pagewrapper .page-preview .rnr-c-masterchartheader,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-masterchartheader
+{
+margin-bottom:5px;
+}
+.page-preview .rnr-b-masterchartheader,
+  .rnr-pagewrapper .page-preview .rnr-b-masterchartheader,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-masterchartheader
+{
+white-space: nowrap;
+}
+.page-preview .rnr-b-masterchartheader,
+  .rnr-pagewrapper .page-preview .rnr-b-masterchartheader,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-masterchartheader
+{
+text-align: left;
+}
+.page-preview .rnr-b-masterchartheader > *,
+  .rnr-pagewrapper .page-preview .rnr-b-masterchartheader > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-masterchartheader > *
+{
+
+}
+.page-preview .rnr-c-form,
+  .rnr-pagewrapper .page-preview .rnr-c-form,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-c-form
+{
+margin-bottom:5px;
+}
+.page-preview .rnr-b-masterchart,
+  .rnr-pagewrapper .page-preview .rnr-b-masterchart,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-masterchart
+{
+white-space: nowrap;
+}
+.page-preview .rnr-b-masterchart,
+  .rnr-pagewrapper .page-preview .rnr-b-masterchart,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-masterchart
+{
+text-align: left;
+}
+.page-preview .rnr-b-masterchart > *,
+  .rnr-pagewrapper .page-preview .rnr-b-masterchart > *,
+  .rnr-pagewrapper .rnr-pagewrapper .page-preview .rnr-b-masterchart > *
+{
+
+}
+body.page-preview .rnr-bare
+{
+padding-right: 5px;
+}

@@ -1,0 +1,49 @@
+<div {$pageattrs}>
+
+{BEGIN container_column}
+<div class="rnr-c rnr-ch rnr-c-column">
+
+{BEGIN masterlist_title}
+<div  class="style1 rnr-bl rnr-b-masterprintheader {$brickclass_masterprintheader}"><span>{$pagetitlelabel etudiant masterprint}</span></div>
+{END masterlist_title}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_column}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+<table {$bsmasterprintgrid_hiddenattr} data-pageid="{$pageid}" data-brick="bsmasterprintgrid" class="table rnr-b-mastergridfields rnr-gridtable" >
+		<thead>
+		<tr>
+			<th class="{$idetudiant_class}">{$label etudiant idetudiant}</th>
+			<th class="{$matricule_class}">{$label etudiant matricule}</th>
+			<th class="{$noms_class}">{$label etudiant noms}</th>
+			<th class="{$cycle_class}">{$label etudiant cycle}</th>
+			<th class="{$niveau_class}">{$label etudiant niveau}</th>
+			<th class="{$datenais_class}">{$label etudiant datenais}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="{$idetudiant_class}">{$idetudiant_mastervalue}</td>
+			<td class="{$matricule_class}">{$matricule_mastervalue}</td>
+			<td class="{$noms_class}">{$noms_mastervalue}</td>
+			<td class="{$cycle_class}">{$cycle_mastervalue}</td>
+			<td class="{$niveau_class}">{$niveau_mastervalue}</td>
+			<td class="{$datenais_class}">{$datenais_mastervalue}</td>
+		</tr>
+	</tbody>
+
+</table> 
+
+
+
+
+{END container_mastergrid}
+
+</div>
